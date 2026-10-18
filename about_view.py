@@ -103,7 +103,7 @@ class AboutPanel(tk.Frame):
         btn_github = tk.Button(btn_frame, text="    GitHub", image=icons.get('github'),
                                compound=tk.LEFT, bd=3, relief='flat',
                                width=btn_width, anchor='w', padx=5,
-                               command=lambda: webbrowser.open('https://github.com/Londimain'))
+                               command=lambda: webbrowser.open('https://github.com/Londimain/Chatroom'))
         btn_github.pack(side=tk.LEFT, padx=10, expand=True)
 
         # Discord
@@ -117,7 +117,7 @@ class AboutPanel(tk.Frame):
         btn_telegram = tk.Button(btn_frame, text="   Telegram", image=icons.get('telegram'),
                                  compound=tk.LEFT, bd=3, relief='flat',
                                  width=btn_width, anchor='w', padx=5,
-                                 command=lambda: webbrowser.open('https://github.com/Londimain/Chatroom'))
+                                 command=lambda: webbrowser.open('https://t.me/GodiNesF'))
         btn_telegram.pack(side=tk.LEFT, padx=10, expand=True)
 
         # Сохраняем иконки, чтобы они не удалялись
