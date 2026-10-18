@@ -72,10 +72,3 @@ Write-Host "Готово: dist\Chatroom.exe" -ForegroundColor Green
 *   `ico/` — иконки приложения и интерфейса.
 *   `sounds/` — звуковые файлы (`.wav`) для уведомлений.
 *   `Smile/` — папка со смайликами (PNG-файлы).
-
-## 🌐 Контакты автора
-
-*   **GitHub**: [Londimain](https://github.com/Londimain)
-*   **Discord**: `GodiNesF#0000` (ID: 935146921813745725)
-*   **Telegram**: [@GodiNesF](https://t.me/GodiNesF)
-```
